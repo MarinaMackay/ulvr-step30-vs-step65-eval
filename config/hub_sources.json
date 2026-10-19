@@ -1,0 +1,37 @@
+{
+  "RuoliuYang/ULVR_v2_clean": {
+    "revision": "714c8ec92ba257b87c480fdb4af0da8cd3c74e13",
+    "kind": "datasets",
+    "bytes": 730838839984
+  },
+  "Qwen/Qwen3.5-4B": {
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "kind": "models",
+    "bytes": 9342907469
+  },
+  "lmms-lab/vstar-bench": {
+    "revision": "b44023b4dca749ed8a76b85eb576627d05a1c174",
+    "kind": "datasets",
+    "bytes": 281194159
+  },
+  "inclusionAI/ZoomBench": {
+    "revision": "b788097e57d30510c6877824833234a73bf80d25",
+    "kind": "datasets",
+    "bytes": 4028337006
+  },
+  "DreamMr/HR-Bench": {
+    "revision": "83b9013d6293b85dc507e87199ca52517536939c",
+    "kind": "datasets",
+    "bytes": 9819476999
+  },
+  "yifanzhang114/MME-RealWorld-Lmms-eval": {
+    "revision": "f157390129e8d2b60757eb68d340aade9446b52b",
+    "kind": "datasets",
+    "bytes": 30887376337
+  },
+  "yifanzhang114/MME-RealWorld-CN-Lmms-eval": {
+    "revision": "37ac6f4e57ef211b37d1ee04a8f1268f1411b3e0",
+    "kind": "datasets",
+    "bytes": 4918200981
+  }
+}

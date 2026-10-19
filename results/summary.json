@@ -1,0 +1,144 @@
+{
+  "protocol_verified": true,
+  "models": [
+    "step_30",
+    "step_65"
+  ],
+  "benchmarks": [
+    {
+      "benchmark": "vstar",
+      "n": 191,
+      "correct": {
+        "step_30": 146,
+        "step_65": 140
+      },
+      "accuracy": {
+        "step_30": 76.43979057591623,
+        "step_65": 73.29842931937172
+      }
+    },
+    {
+      "benchmark": "zoombench",
+      "n": 845,
+      "correct": {
+        "step_30": 390,
+        "step_65": 367
+      },
+      "accuracy": {
+        "step_30": 46.15384615384615,
+        "step_65": 43.43195266272189
+      }
+    },
+    {
+      "benchmark": "hrbench-4k",
+      "n": 800,
+      "correct": {
+        "step_30": 635,
+        "step_65": 608
+      },
+      "accuracy": {
+        "step_30": 79.375,
+        "step_65": 76.0
+      }
+    },
+    {
+      "benchmark": "hrbench-8k",
+      "n": 800,
+      "correct": {
+        "step_30": 598,
+        "step_65": 566
+      },
+      "accuracy": {
+        "step_30": 74.75,
+        "step_65": 70.75
+      }
+    }
+  ],
+  "categories": [
+    {
+      "benchmark": "vstar",
+      "category": "direct_attributes",
+      "n": 115,
+      "accuracy": {
+        "step_30": 74.78260869565217,
+        "step_65": 71.30434782608695
+      }
+    },
+    {
+      "benchmark": "vstar",
+      "category": "relative_position",
+      "n": 76,
+      "accuracy": {
+        "step_30": 78.94736842105263,
+        "step_65": 76.3157894736842
+      }
+    },
+    {
+      "benchmark": "zoombench",
+      "category": "unknown",
+      "n": 845,
+      "accuracy": {
+        "step_30": 46.15384615384615,
+        "step_65": 43.43195266272189
+      }
+    },
+    {
+      "benchmark": "hrbench-4k",
+      "category": "cross",
+      "n": 400,
+      "accuracy": {
+        "step_30": 70.5,
+        "step_65": 65.75
+      }
+    },
+    {
+      "benchmark": "hrbench-4k",
+      "category": "single",
+      "n": 400,
+      "accuracy": {
+        "step_30": 88.25,
+        "step_65": 86.25
+      }
+    },
+    {
+      "benchmark": "hrbench-8k",
+      "category": "cross",
+      "n": 400,
+      "accuracy": {
+        "step_30": 66.75,
+        "step_65": 65.0
+      }
+    },
+    {
+      "benchmark": "hrbench-8k",
+      "category": "single",
+      "n": 400,
+      "accuracy": {
+        "step_30": 82.75,
+        "step_65": 76.5
+      }
+    }
+  ],
+  "macro_accuracy": {
+    "step_30": 69.1796591824406,
+    "step_65": 65.8700954955234
+  },
+  "micro_accuracy": {
+    "step_30": 67.1092564491654,
+    "step_65": 63.770864946889226
+  },
+  "n_total": 2636,
+  "warning": "",
+  "judge": "current assistant plus retained upstream and explicit option/integer rules",
+  "directly_comparable_to_vision_opd_judge": false,
+  "mme_evaluated": false,
+  "ambiguous_cases": [
+    {
+      "tag": "step_30",
+      "benchmark": "hrbench-4k",
+      "review_id": 165,
+      "judge": "No",
+      "sensitivity": "If changed to Yes: step_30 HR4K +0.125 percentage points; four-benchmark macro +0.03125 points. Main direction unchanged."
+    }
+  ]
+}

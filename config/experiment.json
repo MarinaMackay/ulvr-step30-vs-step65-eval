@@ -1,0 +1,51 @@
+{
+  "train": "ulvr_vopd_4b_seed42",
+  "model_tags": [
+    "base",
+    "step_30",
+    "step_65"
+  ],
+  "method": "official Vision-OPD adapted to ULVR bbox_crop",
+  "code_commit": "06860e69b5ed9dc24e96ca5c855f3a4ef25976aa",
+  "train_n": 6240,
+  "batch_size": 96,
+  "rollouts_per_prompt": 8,
+  "expected_training_updates": 65,
+  "checkpoint_save_steps": [
+    30,
+    60,
+    65
+  ],
+  "optimizer": "AdamW (upstream FSDP implementation)",
+  "lr": 2e-06,
+  "warmup_steps": 10,
+  "ema_update_rate": 0.05,
+  "divergence": "JSD",
+  "jsd_alpha": 0.5,
+  "distillation_topk": 100,
+  "student_images": "original only",
+  "teacher_images": "provided crop only",
+  "gold_in_training": false,
+  "train_seed": 42,
+  "evaluation": {
+    "benchmarks": {
+      "vstar": 191,
+      "zoombench": 845,
+      "hrbench-4k": 800,
+      "hrbench-8k": 800,
+      "mme-realworld": 23609,
+      "mme-realworld-cn": 5917
+    },
+    "ulvr_validation_n": 2558,
+    "ulvr_in_six_benchmark_macro": false,
+    "max_tokens": 32768,
+    "temperature": 0,
+    "thinking": false,
+    "judge": "Qwen2.5-72B-Instruct",
+    "judge_api_configured": false
+  },
+  "job_submitted": false,
+  "training_started": false,
+  "gpu_runtime_verified": false,
+  "user_confirmed_scope": "bbox的选出六千多用于训练吧"
+}

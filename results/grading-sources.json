@@ -1,0 +1,48 @@
+{
+  "step_30": {
+    "vstar": {
+      "upstream_rule:mathruler": 137,
+      "explicit_option_rule": 45,
+      "upstream_rule:first letter": 9
+    },
+    "zoombench": {
+      "explicit_option_rule": 435,
+      "integer_exact_rule": 143,
+      "assistant_semantic_review": 4,
+      "upstream_rule:mathruler": 263
+    },
+    "hrbench-4k": {
+      "upstream_rule:first letter": 579,
+      "explicit_option_rule": 205,
+      "assistant_semantic_review": 16
+    },
+    "hrbench-8k": {
+      "upstream_rule:first letter": 551,
+      "explicit_option_rule": 236,
+      "assistant_semantic_review": 13
+    }
+  },
+  "step_65": {
+    "vstar": {
+      "upstream_rule:mathruler": 101,
+      "explicit_option_rule": 51,
+      "upstream_rule:first letter": 39
+    },
+    "zoombench": {
+      "explicit_option_rule": 495,
+      "integer_exact_rule": 161,
+      "assistant_semantic_review": 4,
+      "upstream_rule:mathruler": 185
+    },
+    "hrbench-4k": {
+      "upstream_rule:first letter": 564,
+      "explicit_option_rule": 219,
+      "assistant_semantic_review": 17
+    },
+    "hrbench-8k": {
+      "upstream_rule:first letter": 534,
+      "explicit_option_rule": 246,
+      "assistant_semantic_review": 20
+    }
+  }
+}

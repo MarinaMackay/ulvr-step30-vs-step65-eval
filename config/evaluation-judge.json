@@ -1,0 +1,24 @@
+{
+  "requested_judge": "assistant semantic review",
+  "authorized_utc": "2026-10-18T14:05:22.454936+00:00",
+  "original_judge": "Qwen2.5-72B-Instruct",
+  "directly_comparable_to_original_judge": false,
+  "protocol": "User deferred both MME benchmarks. Run two checkpoints on four complete benchmarks. Assistant semantic grading with upstream deterministic rules; do not report six-benchmark averages.",
+  "tags": [
+    "step_30",
+    "step_65"
+  ],
+  "benchmarks": [
+    "vstar",
+    "zoombench",
+    "hrbench-4k",
+    "hrbench-8k"
+  ],
+  "skipped_benchmarks": [
+    "mme-realworld",
+    "mme-realworld-cn"
+  ],
+  "status": "completed",
+  "protocol_report": "reports/assistant-four-benchmark/validation-and-protocol.json",
+  "accuracy_report": "reports/assistant-four-benchmark/summary.json"
+}

@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-18T20:28:15.759935+00:00",
+  "tags": [
+    "step_30",
+    "step_65"
+  ],
+  "benchmarks": [
+    "vstar",
+    "zoombench",
+    "hrbench-4k",
+    "hrbench-8k"
+  ],
+  "expected_answers": 5272,
+  "validated_answers": 5272,
+  "pending": 0,
+  "api_errors": 0,
+  "duplicate_ids": 0,
+  "question_and_gold_sets_equal": true,
+  "grading_counts": {
+    "retained_upstream_positive_rules": 2962,
+    "explicit_option_rule": 1932,
+    "integer_exact_rule": 304,
+    "assistant_semantic_review": 74
+  },
+  "semantic_review_policy": "Compare response with provided gold/options; use final selected answer over intermediate reasoning. Do not independently relabel ground truth using images. Repetitive/unresolved answers without a supported final answer are No. Retain original upstream positive decisions for protocol continuity.",
+  "judge_differs_from_vision_opd_default": true,
+  "vision_opd_reference_judge": "Qwen2.5-72B-Instruct",
+  "current_judge": "current assistant with deterministic rules",
+  "deferred_benchmarks": [
+    "mme-realworld",
+    "mme-realworld-cn"
+  ],
+  "sha256": {
+    "scripts/classify_review_answers.py": "ab924d6d332befcc1a7180406761ecb35673fe8dd31c97d912f0ede25eb2789f",
+    "scripts/finalize_assistant_grading.py": "f73f206c52895e771a9fb6946701694428809e6a017c793829537e27e54fbf52",
+    "reports/assistant-semantic-decisions.json": "02c78b40234fbd71129a780f96473dd406051a61755a62759a74e6cce79f5c76",
+    "reports/explicit-option-decisions.json": "31343c6c46a317a3a3d2d03df288be69169f99e5a9c2b3c22a0f7caba5493277",
+    "reports/numeric-decisions.json": "d629209f29f013d025a82153d9c3927eed5298d80b70977e83ada785f83da6df"
+  }
+}

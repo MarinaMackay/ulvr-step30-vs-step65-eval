@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "repo": "RuoliuYang/ULVR_v2_clean",
+    "revision": "714c8ec92ba257b87c480fdb4af0da8cd3c74e13",
+    "config": "bbox_crop"
+  },
+  "model": {
+    "repo": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "code": {
+    "repo": "VisionOPD/Vision-OPD",
+    "revision": "06860e69b5ed9dc24e96ca5c855f3a4ef25976aa"
+  },
+  "training_n": 6240,
+  "candidate_n": 8000,
+  "seed": 42,
+  "batch_size": 96,
+  "updates": 65,
+  "checkpoint_steps": [
+    30,
+    65
+  ],
+  "benchmarks": {
+    "vstar": 191,
+    "zoombench": 845,
+    "hrbench-4k": 800,
+    "hrbench-8k": 800,
+    "mme-realworld": 23609,
+    "mme-realworld-cn": 5917
+  }
+}

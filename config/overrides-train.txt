@@ -1,0 +1,4 @@
+# Upstream explicitly installs --no-deps and pins transformers 5.5.0 for Qwen3.5.
+# vLLM 0.18.0 metadata declares transformers<5. Preserve the upstream runtime
+# choice as an explicit, reviewable override, NOT a claimed compatible pip check.
+transformers==5.5.0
